@@ -64,29 +64,29 @@ Continue with the rest of Part 1 by following the instructions in the provided j
 
 ### Step 1: Open `part2.py` as you normally would in IDLE.
 
-### Step 2: Insert a print statement just inside the outside for loop in each of the two sorting functions.
+### Step 2: Insert a print statement just inside the outside for loop in each of the two sorting functions. The print statement should print out whatever is provided as a command line argument (i.e., `sys.argv[1]`).
 
 ### Step 3 (**NEW**): Run a Python program in a terminal as follows
 
 * Open a Terminal (in Mac) or cmd/Command (in Windows). Follow the steps in **Part 1, Step 2** above to navigate to this folder using the `cd` command, which works in both Mac and Windows.
 
-*Type the following:
+* Type the following:
 
 ```
-python3 part2.py
+python3 part2.py GOOOOOOOOOOOOL
 ```
 
-If you are on Windows, you might need to type:
+* If you are on Windows, you might need to type:
 
 ```
-python part2.py
+python part2.py GOOOOOOOOOOOOL
 ```
 or
 
 ```
-py3 part2.py
+py3 part2.py GOOOOOOOOOOOOL
 ```
-You should see the output of the print statements you inserted.
+You should see the output of the print statements you inserted, namely `GOOOOOOOOOOOOL`.
 
 ### Step 4: Finish writing the program
 Now you will finish writing `part2.py` to run a simulation to approximate the best case, worst case, and average case for bubble sort and selection sort. You'll see that I have included the basic code for bubble sort and selection sort so all you need to do is run the simulation as follows:
