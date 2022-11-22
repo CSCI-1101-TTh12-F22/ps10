@@ -86,18 +86,26 @@ or
 ```
 py3 part2.py GOOOOOOOOOOOOL
 ```
-You should see the output of the print statements you inserted, namely `GOOOOOOOOOOOOL`.
+You should see the output of the print statements you inserted, namely `GOOOOOOOOOOOOL`. Why did you do this? To learn about why we call those command line arguments. They are arguments provided on the command line. :)
 
 ### Step 4: Finish writing the program
 Now you will finish writing `part2.py` to run a simulation to approximate the best case, worst case, and average case for bubble sort and selection sort. You'll see that I have included the basic code for bubble sort and selection sort so all you need to do is run the simulation as follows:
 
 * First, you will modify the code of these two functions to **keep track of and return** the number of comparisons that are made in one run of the function, where "comparison" means "anything that involves < or >".
 
-* Next, in your `main()` function, you will create two empty lists `bubblelist` and `selectionlist`. You will generate 1000 different lists of length 10 of random integers using some function in the `random` library. (There might be something better than `randint()`.  You will submit each list to the two sort methods and keep track of how many comparisons were required to sort each list. You will then report the minimum number of comparisons, the maximum number of comparisons, and the average number of comparisons for each sorting algorithm. Finally, you will plot an appropriate labeled histogram for each list.
+* The rest of your code will be in your `main()` function. First, create two empty lists `bubblelist` and `selectionlist`. These will store how many comparisons it took for each time you call each function.
+ 
+* Generate 1000 different lists of length 10 of random integers using a function in the `random` library. (There might be something better than `randint()` for doing this, so have a look at the documentation for `random`.)   
+ 
+* Every time you generate a list of 10 random integers, make a copy of it. (Not sure how to do that? Have a look [here](https://www.w3schools.com/python/python_lists_copy.asp).) Then submit one copy of the list to bubble sort and one copy to selection sort. Each time you call one of these functions, it will return the number of required comparisons. Use `bubblelist` and `selectionlist` to keep track of how many comparisons were required. 
+ 
+* Then report the minimum number of comparisons, the maximum number of comparisons, and the average number of comparisons for each sorting algorithm. 
+ 
+* Finally, plot an appropriate labeled histogram for each list.
 
-* Remember that you should frequently test your program by saving it and running it! Insert **print statements** to debug as needed.
+Remember that you should frequently test your program by saving it and running it! Insert **print statements** to debug as needed.
 
-Below I have provided *pseudo-pseudocode* for you to implement in your `main()` function. This pseudocode is included as comments in the `part2.py` file.
+Below I have provided *pseudo-code* for you to implement in your `main()` function. This pseudocode is included as comments in the `part2.py` file.
 
 ```
 declare bubblelist, selectionlist as empty lists
