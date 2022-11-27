@@ -62,11 +62,13 @@ Continue with the rest of Part 1 by following the instructions in the provided j
 
 ## Part 2: Running a program from the command line 
 
-### Step 1: Open `part2.py` as you normally would in IDLE.
+### Step 1
+Open `part2.py` as you normally would in IDLE.
 
-### Step 2: Insert a print statement just inside the outside for loop in each of the two sorting functions. The print statement should print out whatever is provided as a command line argument (i.e., `sys.argv[1]`).
+### Step 2
+Insert a print statement just inside the outside for loop in each of the two sorting functions. The print statement should print out whatever is provided as a command line argument (i.e., `sys.argv[1]`).
 
-### Step 3 (**NEW**): Run a Python program in a terminal as follows
+### Step 3: Running a Python program in a terminal as follows
 
 * Open a Terminal (in Mac) or cmd/Command (in Windows). Follow the steps in **Part 1, Step 2** above to navigate to this folder using the `cd` command, which works in both Mac and Windows.
 
