@@ -93,7 +93,7 @@ You should see the output of the print statements you inserted, namely `GOOOOOOO
 ### Step 4: Finish writing the program
 Now you will finish writing `part2.py` to run a simulation to approximate the best case, worst case, and average case for bubble sort and selection sort. You'll see that I have included the basic code for bubble sort and selection sort so all you need to do is run the simulation as follows:
 
-* First, you will modify the code of these two functions to **keep track of and return** the number of comparisons that are made in one run of the function, where "comparison" means "anything that involves < or >".
+* First, you will modify the code of these two functions to **return** the number of comparisons that are made in one run of the function.
 
 * The rest of your code will be in your `main()` function. First, create two empty lists `bubblelist` and `selectionlist`. These will store how many comparisons it took for each time you call each function.
  
