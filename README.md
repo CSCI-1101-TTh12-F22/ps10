@@ -137,8 +137,8 @@ Selection sort:  min=45, max=45, mean=45.0
 
 <img src="bubble.png" width=300>
 
-### Step 6: Document your use the shell
-Take a screenshot your program call and the output on the terminal/cmd so that I know you used the terminal/cmd to run the program.
+### Step 6: Document your use of the shell (command line, Terminal) for calling your function
+Take a screenshot of your program call with the command line argument and the output on the terminal/cmd so that I know you used the terminal/cmd to run the program.
 
 ---
 
