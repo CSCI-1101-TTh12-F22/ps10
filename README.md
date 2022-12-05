@@ -15,7 +15,7 @@ To use a Jupyter notebook, you need to install the `juypter` library. To do so, 
 
 `pip3 install jupyter`
 
-Or on a Windows machine, launch Command and type:
+Or on a Windows machine, launch Command and type the above command with and without the `3` or the following:
 
 `py -3 -m pip install jupyter`
 
@@ -40,13 +40,19 @@ cd Desktop\ps10-main
 If you get an error, try this instead, where `your-username` is your username.
 
 ```
-cd c:\Users\your-username\Desktop\ps10-main
+cd C:\Users\your-username\Desktop\ps10-main
 ```
 
 Then type
 
 ```
 jupyter notebook
+```
+
+or if that doesn't work:
+
+```
+py -3 -m jupyter notebook
 ```
 
 * On both Windows and Mac, this will open your default browser, and you'll see a screen that looks like this:
